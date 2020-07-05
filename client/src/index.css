@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  z-index: 10;
+}
+
+a {
+  text-decoration: none;
+}
+.scrolloff {
+  height: 100%;
+  overflow: hidden;
+}
+
+:root {
+  --primary-background-color: white;
+  --secondary-background-color: #2cd7e2;
+  --body-background-color: whitesmoke;
+  --navbar-link-hover: black;
+  --searchbox-box-shadow: #a6a6a6;
+  --searchbox-textcolor: #333333;
+  --overlay-color: rgb(0, 0, 0, 0.5);
+  --searchbox-result-boxshadow: #c2c2c2;
+  --home-post-border: lightgray;
+  --profile-name: lightcoral;
+  --alert-background-color: lightgreen;
+  --alert-color: green;
+  --comment-btn-color: #8685ef;
+}
+
+.dark {
+  --primary-background-color: #222831;
+  --secondary-background-color: #efbb35;
+  --body-background-color: #181c22;
+  --navbar-link-hover: #cfcfcf;
+  --searchbox-box-shadow: #1a1d24;
+  --searchbox-textcolor: #1a1d24;
+  --overlay-color: rgb(0, 0, 0, 0.5);
+  --searchbox-result-boxshadow: #302e24;
+  --home-post-border: black;
+  --profile-name: #3399fe;
+  --alert-background-color: lightgreen;
+  --alert-color: green;
+  --comment-btn-color: #41b883;
+}

@@ -1,0 +1,9 @@
+.form {
+  flex: 1;
+  display: flex;
+}
+.commentInputbox {
+  flex: 1;
+  background-color: var(--primary-background-color);
+  color: var(--navbar-link-hover);
+}

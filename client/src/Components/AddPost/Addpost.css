@@ -1,0 +1,70 @@
+.addpostcontainer {
+  width: 900px;
+  max-width: 100%;
+  margin: auto;
+  background-color: var(--primary-background-color);
+  margin-top: 1em;
+}
+
+.Addposttitle {
+  text-align: center;
+  padding: 0.5em;
+  color: var(--profile-name);
+}
+
+.postdiv {
+  width: 400px;
+  max-width: 100%;
+  margin: auto;
+  background-color: transparent;
+}
+.raw {
+  display: flex;
+  padding: 1rem 0;
+  color: var(--searchbox-box-shadow);
+  align-items: center;
+}
+
+.cal1 {
+  width: 30%;
+  text-align: center;
+  color: var(--navbar-link-hover);
+}
+.cal2 {
+  text-align: center;
+}
+
+.cal input {
+  height: 2rem;
+}
+.submitpost {
+  font-size: 0.8rem;
+  padding: 0.5em 0.8em;
+  background-color: transparent;
+  color: var(--secondary-background-color);
+  border: none;
+  outline: none;
+  border: 1px solid var(--secondary-background-color);
+}
+
+.submitpost:hover {
+  background-color: var(--secondary-background-color);
+  color: var(--primary-background-color);
+}
+.buttonadd {
+  font-size: 1rem;
+  padding: 0.4em 0.8em;
+  border: none;
+  outline: none;
+  border-radius: 0.4em;
+  background-color: var(--profile-name);
+  color: var(--primary-background-color);
+  cursor: pointer;
+  border: 1px solid var(--primary-background-color);
+}
+
+.buttonadd:hover {
+  background-color: var(--primary-background-color);
+  color: var(--profile-name);
+  border: 1px solid var(--profile-name);
+}

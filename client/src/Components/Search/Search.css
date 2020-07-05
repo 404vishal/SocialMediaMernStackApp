@@ -1,0 +1,15 @@
+.ficacon {
+  color: var(--profile-name);
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ficacon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+.nohover {
+  cursor: initial;
+}

@@ -1,0 +1,78 @@
+.HomeContainer {
+  width: 900px;
+  margin: auto;
+  max-width: 100%;
+  background-color: var(--primary-background-color);
+  padding: 1em;
+}
+
+.divpost {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  background-color: var(--primary-background-color);
+  border-radius: 0.4em;
+  border: 1px solid var(--home-post-border);
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.headpost {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-background-color);
+  padding: 0.5em 1em;
+}
+
+.postedbyUserName {
+  padding-left: 1em;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+}
+.imgofposteduser {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.imagePosted {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.poststats {
+  display: flex;
+  align-items: center;
+  padding: 0 0.3em;
+}
+
+.poststats input {
+  flex: 1;
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid var(--home-post-border);
+}
+
+.poststats button {
+  border: none;
+  font-size: 1.8rem;
+  background-color: transparent;
+  padding: 0.2em 0.5em;
+  cursor: pointer;
+}
+.poststats .commentbutton {
+  border-radius: 0.4em;
+  margin-left: 0.4em;
+}
+.totalamount {
+  display: flex;
+  flex-direction: column;
+  padding: 0.4em 0.8em;
+}
+.totalamount span {
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--navbar-link-hover);
+}

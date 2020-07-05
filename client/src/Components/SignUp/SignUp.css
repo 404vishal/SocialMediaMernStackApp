@@ -1,0 +1,121 @@
+.SignupContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+  align-items: center;
+  height: 100vh;
+  background-color: #93f49f;
+}
+
+.SignUpBox {
+  width: 360px;
+  background-color: white;
+  padding: 2em;
+  margin-top: 3em;
+  border-radius: 0.5em;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0.3em;
+  color: #2cd7e2;
+}
+
+.SignUpBox .desc {
+  font-size: 1.3rem;
+  letter-spacing: 0.13em;
+  text-align: center;
+  color: #94b0b2;
+}
+
+.signupform {
+  margin-top: 2em;
+}
+.displaynone {
+  display: none;
+}
+
+.signupform input {
+  width: 100%;
+  padding: 0.7em;
+  background-color: #e6f4f1;
+  border: none;
+  outline: none;
+}
+.error {
+  padding: 0.2em;
+  color: #a53c00;
+}
+.inputbox {
+  margin-bottom: 1em;
+}
+
+.signupform button {
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.1em;
+  border-radius: 0.5em;
+  background-color: #8786ce;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+.notloadbutton {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.someinfo {
+  text-align: center;
+  color: #94b0b2;
+}
+.redirecttologin {
+  font-size: 1.2rem;
+  margin-top: 1.5em;
+}
+.redirecttologin p {
+  color: #2f4858;
+}
+.redirecttologin a {
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .SignupContainer {
+    height: 650px;
+  }
+
+  .SignUpBox {
+    width: 320px;
+    font-size: 0.7rem;
+  }
+
+  .title {
+    font-size: 2.4rem;
+  }
+
+  .SignUpBox .desc {
+    font-size: 1rem;
+  }
+  .signupform,
+  .signupform input,
+  .inputbox,
+  .error,
+  .someinfo,
+  .redirecttologin a {
+    font-size: 0.8rem;
+  }
+
+  .signupform button {
+    font-size: 0.7rem;
+  }
+
+  .redirecttologin {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,12 @@
+.cal select {
+  display: block;
+  width: 12em;
+  height: 2em;
+  outline: none;
+}
+select > option {
+  display: block;
+  font-size: 1rem;
+  margin: 0.3em 0;
+  border: none;
+}
