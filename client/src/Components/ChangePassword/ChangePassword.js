@@ -108,10 +108,10 @@ export default function ChangePassword() {
         <div className="editprofilecontainer">
           <div className="sidebar">
             <Link to="editprofile">
-              <button>EditProfile</button>
+              <button className="sidebarbtns">EditProfile</button>
             </Link>
             <Link to="changepassword">
-              <button className="underline">Change Password</button>
+              <button className="underline sidebarbtns">Change Password</button>
             </Link>
           </div>
           <div className="editcontainer">

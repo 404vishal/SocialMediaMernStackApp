@@ -180,10 +180,10 @@ export default function EditProfile() {
         <div className="editprofilecontainer">
           <div className="sidebar">
             <Link to="editprofile">
-              <button className="underline">Edit Profile</button>
+              <button className="underline sidebarbtns">Edit Profile</button>
             </Link>
             <Link to="changepassword">
-              <button>Change Password</button>
+              <button className="sidebarbtns">Change Password</button>
             </Link>
           </div>
           <div className="editcontainer">

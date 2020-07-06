@@ -28,6 +28,9 @@
   display: block;
   text-align: center;
 }
+.sidebarbtns {
+  padding: 0.6em 0;
+}
 
 .row {
   display: flex;
