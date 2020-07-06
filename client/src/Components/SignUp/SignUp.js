@@ -81,7 +81,7 @@ export default function SignUp() {
       console.log(response.data);
       dispatch(adduser(response.data[0]));
       localStorage.setItem("UserManiac", JSON.stringify(response.data[0]));
-      document.body.className = response.data.user[0].theme;
+      document.body.className = "default";
     } catch (err) {
       console.log(err);
     }
