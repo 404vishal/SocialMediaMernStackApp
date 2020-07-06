@@ -87,7 +87,7 @@ export default function Navbar() {
         </div>
         <ul id="ul">
           <li>
-            <Link to="/Home">
+            <Link to="/">
               <span>Home</span>
             </Link>
           </li>

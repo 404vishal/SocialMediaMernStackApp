@@ -29,11 +29,7 @@ export default function App() {
           <Switch>
             <Route exact path="/signup" component={SignUp}></Route>
             <Route exact path="/login" component={Login}></Route>
-            <PrivateRoute
-              exact={true}
-              path="/Home"
-              component={Home}
-            ></PrivateRoute>
+            <PrivateRoute exact={true} path="/" component={Home}></PrivateRoute>
             <PrivateRoute
               exact={true}
               path="/post/:id"
