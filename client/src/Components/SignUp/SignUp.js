@@ -143,7 +143,7 @@ export default function SignUp() {
                 Sign Up
               </button>
               <p className="someinfo">
-                By signing up, you agree to our Terms , Data Policy and Cookies
+                By signing up, you agree to our Terms, Data Policy and Cookies
                 Policy .
               </p>
             </form>

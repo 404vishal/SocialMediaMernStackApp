@@ -60,7 +60,7 @@ export default function MyProfile() {
         getfromls.profilephoto = response.data.image;
         localStorage.setItem("UserManiac", JSON.stringify(getfromls));
       } else {
-        alert("image file size exceded (max size-1MB)");
+        alert("Image File size exceded (max size-1MB)");
       }
     } else {
       alert("not an image file");
